@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+   <meta name="description" content="Hanedar Çiçek">
+   <meta name="keywords" content=" Ümraniye, Çiçek, Buket , Arajman , Gelin Arabası , İsteme Çiçeği , Söz Çiçeği , Bitkiler">
+   <meta name="author" content="Cenk Beri">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="./js/page.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="StyleSheet" href="./buketler/buket.css">
+  <title>Hanedar Çiçek</title>
+</head>
+
+<body>
+   <!--Hamburger Menu-->
+   <img class="hamb" src="./img/ham.png" alt="" onclick="openmenu()">
+   <button type="button" id="closer" onclick="closemenu()">X</button>
+   <div class="hamb-box">
+     <ul class="nav " id="hamb-menu">
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./index.html">
+           Ana Sayfa</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./bitkiler.html">Bitkiler</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./arajmanlar.html">Aranjmanlar</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./buketler.html">Buketlerimiz</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./dugun-arabasi.html">Söz,Nişan ve Düğün Arabası</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./contact.html">İletişim</a>
+       </li>
+     </ul>
+ 
+   </div>
+   <!--Hamburger Menu-->
+
+    <!--header-->
+    <header class="container-xxl mb-3" id="header">
+      <div class="logo">
+
+          <img class="img-fluid" src="./img/logo.png" alt="">
+
+      </div>
+      <div class="container-xxl" id="menu">
+
+          <ul class="nav">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">
+                      Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./bitkiler.html">Bitkiler</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./arajmanlar.html">Aranjmanlar</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./buketler.html" id="page-act">Buketlerimiz</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./dugun-arabasi.html">Evlilik Org.</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./contact.html">İletişim</a>
+              </li>
+          </ul>
+
+      </div>
+    </header>
+    <!--header-->
+   
+     <!--Rose Topbar-->
+    <div class="container-xl mt-4" id="back">
+    <div class="row d-flex justify-content-center align-items-center">
+
+      <div class="col-sm-4 col-md-5 my-4">
+        <div class="row">
+          <div class="col-6"><img class="img-spec img-fluid" src="./buketler/img/box-1.jpeg" alt=""></div>
+          <div class="col-6"><img class="img-spec img-fluid" src="./buketler/img/box-4.jpeg" alt=""></div>
+          <div class="col-6 mt-3"><img class="img-spec img-fluid" src="./buketler/img/box-3.jpeg" alt=""></div>
+          <div class="col-6 mt-3"><img class="img-spec img-fluid" src="./buketler/img/box-2.jpeg"alt=""></div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-5 text-center my-4">
+
+        <h1>Gül buketi, <br> aşkın simgesidir!</h1>
+        <small>Sevdiklerinizi mutlu etmek için <br> bir gül buketi yeter...</small><br>
+        <a href="#rose"><button type="button" class="btn mt-2 px-4">Tıklayınız</button></a>
+
+      </div>
+      
+    </div>
+    </div>
+    <!--Rose Topbar-->
+
+    <!--Seasonal Topbar-->
+    <div class="container-xl mt-4 bg-warning " id="back">
+      <div class="row d-flex justify-content-center align-items-center">
+        
+        <div class="col-sm-4 col-md-5 text-center my-4 pt-4">
+  
+          <h2>Mevsimlik Buketlerimizi <br> incelediniz mi ?</h2>
+          <small>Her çiçeği mevsiminde size sunuyoruz.</small><br>
+          <a href="#seasonal"><button type="button" class="btn mt-2 px-4">Tıklayınız</button></a>
+  
+        </div>
+
+        <div class="col-sm-4 col-md-5 my-4">
+          <div class="row">
+            <div class="col-6"><img class="img-spec img-fluid" src="./buketler/img/seasonal/topbar1.jpg" alt=""></div>
+            <div class="col-6"><img class="img-spec img-fluid" src="./buketler/img/seasonal/topbar2.jpg" alt=""></div>
+          </div>
+        </div>
+    
+        
+      </div>
+      </div>
+    <!--Seasonal Topbar-->
+  
+    
+    <!-- Rose Cards-->
+    <h2 class="text-center mt-5 mb-3" id="rose">Gül Buketlerimiz</h2>
+    <div class="container-xxl mt-2" id="cards">
+    <div class="col-sm-12">
+          <div class="card-group">
+              
+              <div class="col-6 card">
+                  <img src="./buketler/img/rose1.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Kırmızı Gül Buketi</h5>
+                      <small class="card-text">İstediğin adette kırmızı güllerimizden buket yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/rose2.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Pembe Gül Buketi</h5>
+                      <small class="card-text">İstediğin adette pembe güllerimizden buket yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/rose3.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Mor Gül Buketi</h5>
+                      <small class="card-text">İstediğin adette mor güllerimizden buket yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/rose4.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Sarı Gül Buketi</h5>
+                      <small class="card-text">İstediğin adette sarı güllerimizden buket yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+
+          </div>
+    </div>
+    </div>
+    <div class="container-xxl mt-2" id="cards">
+        <div class="col-sm-12">
+            <div class="card-group">
+              <div class="col-6 card">
+                <img src="./buketler/img/rose7.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Karışık Renk Buketler</h5>
+                      <small class="card-text">İstediğin adette Karışık renk güllerimizden buket yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+                <div class="col-6 card">
+                    <img src="./buketler/img/rose5.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Beyaz Gül Buketi</h5>
+                        <small class="card-text">İstediğin adette beyaz güllerimizden buket yapıyoruz.</small>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+
+                </div>
+                <div class="col-6 card">
+                    <img src="./buketler/img/rose6.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kalp Şeklinde Pembe Güller</h5>
+                        <small class="card-text">İstediğin adette pembe güllerimizden buket yapıyoruz.</small>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+
+                </div>
+                <div class="col-6 card">
+                  <img src="./buketler/img/rose8.jfif" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Kalp Şeklinde Buketler</h5>
+                        <small class="card-text">İstediğin adette ve renklerde güllerimizden buket yapıyoruz.</small>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--Rose Cards-->
+
+
+     <!--Seasonal Cards-->
+    <h2 class="text-center mt-5 mb-3" id="seasonal">Sezonluk Buketlerimiz</h2>
+    <div class="container-xxl mt-2 seasonal" id="cards">
+      <div class="col-sm-12">
+          <div class="card-group">
+            <div class="col-6 card">
+              <img src="./buketler/img/seasonal/mix1-gerbera.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Papatya Buketi</h5>
+                    <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                </div>
+                <div class="card-footer">
+
+                </div>
+
+            </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix1-tulips.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Kırmıızı Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix-2gerbera.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Papatya Gül Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                <img src="./buketler/img/seasonal/mix-3lale.jfif" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                      <h5 class="card-title">Sarı Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+
+    </div>
+
+    <div class="container-xxl mt-2 seasonal" id="cards">
+      <div class="col-sm-12">
+          <div class="card-group">
+            <div class="col-6 card">
+              <img src="./buketler/img/seasonal/mix-5lale.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Açık Pembe Lale Buketi</h5>
+                    <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                </div>
+                <div class="card-footer">
+
+                </div>
+
+            </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix-6krallale.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Kral Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix-7lale.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Kırmızı Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                <img src="./buketler/img/seasonal/mix-8lale.jfif" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                      <h5 class="card-title">Beyaz Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+
+    </div>
+
+    <div class="container-xxl mt-2 seasonal" id="cards">
+      <div class="col-sm-12">
+          <div class="card-group">
+            <div class="col-6 card">
+              <img src="./buketler/img/seasonal/mix-9papatya.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sarı Papatya Buketi</h5>
+                    <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                </div>
+                <div class="card-footer">
+
+                </div>
+
+            </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix-10papatya.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Papatya Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                  <img src="./buketler/img/seasonal/mix-11lale.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Beyaz Lale Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+              <div class="col-6 card">
+                <img src="./buketler/img/seasonal/mix-12papatya-zambak.jfif" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                      <h5 class="card-title">Papatya Zambak Buketi</h5>
+                      <small class="card-text">İstediğin adette buketler yapıyoruz.</small>
+                  </div>
+                  <div class="card-footer">
+
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+
+    </div>
+     <!--Seasonal Cards-->
+
+
+    <!--footer-->
+    <div class="container-xl mt-4" id="footer">
+
+    <div class="d-flex align-items-center justify-content-center w-100 h-75">
+      <img class="h-75" src="./img/truck.svg" alt="">
+      <small>Aynı Gün Teslimat</small>
+    </div>
+    <div class="d-flex align-items-center justify-content-center w-100 h-75">
+      <img class="h-75" src="./img/card.svg" alt="">
+      <small>Ücretsiz Not Kağıdı</small>
+    </div>
+    <div class="d-flex align-items-center justify-content-center w-100 h-75">
+      <img class="h-75" src="./img/magic.svg" alt="">
+      <small>Çiçek Bakım Desteği</small>
+    </div>
+    <div class="d-flex align-items-center justify-content-center w-100 h-75">
+      <img class="h-75" src="./img/calendar.svg" alt="">
+      <small>Haftasonu Teslimat</small>
+    </div>
+
+    </div>
+    <!--footer-->
+   
+
+  </div> <!--page finish-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>
