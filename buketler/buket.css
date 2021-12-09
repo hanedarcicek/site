@@ -224,7 +224,7 @@ body {
 }
 
 .card-body {
-  min-height: 10rem;
+  height: 11em !important;
 }
 
 /*--------------Main Codes------------------------------*/
@@ -327,16 +327,16 @@ body {
     display: none;
   }
   .card-body {
-    height: auto;
+    height: 9.5em !important;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .nav-link {
     font-size: 0.9vw !important;
   }
   .card-body {
-    height: auto;
+    height: 7.5em !important;
   }
 }
 
