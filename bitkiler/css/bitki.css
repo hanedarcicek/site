@@ -142,7 +142,7 @@ body {
 }
 
 .card-body {
-  height: 14rem;
+  height: 15rem;
 }
 
 .card {
@@ -368,13 +368,25 @@ body {
     display: none;
   }
   .card-body {
-    height: auto;
+    height: 15rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .card-body {
-    height: auto;
+    height: 13.5rem;
+  }
+  .orchid-cards .card-body {
+    height: 9rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-body {
+    height: 10rem;
+  }
+  .orchid-cards .card-body {
+    height: 7rem !important;
   }
 }
 
@@ -383,7 +395,10 @@ body {
     font-size: 0.9vw !important;
   }
   .card-body {
-    height: auto;
+    height: 8rem;
+  }
+  .orchid-cards .card-body {
+    height: 6.5rem !important;
   }
 }
 
