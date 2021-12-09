@@ -283,7 +283,7 @@ body {
 
 .card-body{
 
-    height: 8rem;
+    height: 8.5rem;
     
 }
 
@@ -387,6 +387,13 @@ body {
 
     }
 
+    .card-body{
+
+        height: 7rem;
+        
+    }
+   
+
 
 }
 
@@ -395,6 +402,14 @@ body {
     #media-4{
         display: none !important;
 
+    }
+
+
+
+    .card-body{
+
+        height: 6rem;
+        
     }
    
 
@@ -405,6 +420,12 @@ body {
     .hamb{
         display: none;
 
+    }
+
+    .card-body{
+
+        height: 6.5rem;
+        
     }
    
 
