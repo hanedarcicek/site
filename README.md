@@ -1,3 +1,3 @@
 # Hanedarcicek Project
 
-https://cenkberry.github.io/Hanedarcicek/
+https://hanedarcicek.github.io/site/
