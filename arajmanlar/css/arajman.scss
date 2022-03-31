@@ -14,8 +14,6 @@ $navbar : #b9337d;
     justify-items: center;
     align-items: center;
 }
-
-
 body {
     font-size: 16px;
     font-family: 'Signika', sans-serif;
@@ -82,65 +80,47 @@ body {
     h5 {
         color: $primary-color;
     }
-    
+
 
     .card img{
         transform: scale(0.90);
-        
-        
-       
     }
-    
     .card img:hover{
-        
+
         transform: scale(1);
-        
-    
     }
-
-
 }
 
 .card-body{
 
     height: 9rem;
-    
 }
 
 .card{
-    
+
     float:left;
 }
 
 .img-spec{
-    height: 10rem;
+    height: 100%;
     width: 100%;
     border-radius:1rem;
 }
 
 /*--------------Main Codes------------------------------*/
 
-
-
-
-
-
 /*--------------Topbox Codes------------------------------*/
 
 #animation{
-
     .img-spec{
-   
         animation: imgrise 1.5s linear;
-     
      }
-
 }
 .exp-center{
     @include flexy;
     flex-direction: column;
     text-align: center;
-    
+
 }
 .topbarTwo{
     background-color: $primary-color;
@@ -156,9 +136,8 @@ body {
         background-color: #fff;
         color: $primary-color;
         margin-bottom: 0.5rem;
-
     }
-    
+
     .btn:hover {
         font-size: 0.8rem;
         width: 8rem;
@@ -166,7 +145,6 @@ body {
         background-color: #ffffff;
         border: 1px solid $primary-color;
         color: $primary-color;
-
     }
 }
 .btn{
@@ -197,7 +175,7 @@ body {
     background-color: $primary-color;
     color: $f8text;
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     right:0;
     display: none;
@@ -212,7 +190,7 @@ body {
     a:hover
     {
         color: $f8text;
-        
+
     }
 
     .nav-item{
@@ -220,16 +198,9 @@ body {
         text-align: center;
         border-bottom:2px solid $f8text;
     }
-
     .nav-link{
         font-size: 4.4vw;
-
-        
-        
     }
-
-    
-
 }
 #closer{
     display: none;
@@ -256,12 +227,9 @@ body {
 }
 /*--------------Hamburger Menu Codes------------------------------*/
 
-
-
-
 /*--------------Keyframes------------------------------*/
 @keyframes imgrise{
-    
+
     0%   {opacity:0;}
     20%  {opacity:0.2;}
     40%  {opacity:0.4;}
@@ -272,8 +240,6 @@ body {
 }
 
 /*--------------Keyframes------------------------------*/
-
-
 
 
 /*--------------Footer Codes------------------------------*/
@@ -296,21 +262,13 @@ body {
         margin-left: 1vw;
     }
 
-
 }
 
 /*--------------Footer Codes------------------------------*/
 
-
-
-
-
-
-
 /*--------------Media Queries------------------------------*/
 
 @media screen and (max-width: 768px) {
-
 
     #header {
         display: grid;
@@ -322,21 +280,15 @@ body {
             @include flexy;
 
             .nav-link {
-                font-size: 2vw;
+                font-size: 1.6vw;
             }
-
         }
-
-
     }
-
-
-
-
+    #footer{
+        display:none;
+    }
 }
 @media screen and (max-width: 576px) {
-
-    
 
     #header {
         display: grid;
@@ -347,8 +299,6 @@ body {
             display: none;
 
         }
-
-
     }
 
     .hamb{
@@ -356,6 +306,10 @@ body {
         position: absolute;
         right: 1rem;
         top:1.5rem;
+    }
+    .topbarTwo{
+        background-color: $primary-color;
+        border-radius: 0;
     }
 
     .anima{
@@ -375,27 +329,34 @@ body {
         display: none;
 
     }
-
-
-
-
 }
 @media screen and (min-width: 576px) {
- 
-    .hamb{
-        display: none;
+    
+    .card-body{
+        height: auto;
+    }
+    #header {
+        display: grid;
+        height: auto;
 
     }
-   
-
+    .hamb{
+        display: none;
+    }
 }
 @media screen and (min-width: 1280px) {
 
     .nav-link {
         font-size: 0.9vw !important;
     }
-
-
+    .img-spec{
+        height: 12rem;
+        width: 100%;
+        border-radius:1rem;
+    }
+    .card-body{
+        height: auto;
+    }
 
 }
 @media screen and (min-width: 1440px) {
@@ -405,12 +366,8 @@ body {
     }
 
     small {
-
         font-size: 1vw !important;
-
     }
 
-
 }
-
 /*--------------Media Queries------------------------------*/
