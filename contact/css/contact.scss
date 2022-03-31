@@ -15,7 +15,6 @@ $navbar : #b9337d;
     align-items: center;
 }
 
-
 body {
     font-size: 16px;
     font-family: 'Signika', sans-serif;
@@ -100,7 +99,7 @@ body {
         background-color: #fff;
         color: $primary-color;
     }
-    
+
     .btn:hover{
         font-size: 0.8rem;
         width: 8rem;
@@ -108,7 +107,6 @@ body {
         background-color: #ffffff;
         border: 1px solid $primary-color;
         color: $primary-color;
-
     }
 }
 
@@ -116,14 +114,12 @@ body {
     height: 25rem;
 }
 
-
-
 /*--------------Hamburger Menu Codes------------------------------*/
 #hamb-menu{
     background-color: $primary-color;
     color: $f8text;
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     right:0;
     display: none;
@@ -138,7 +134,7 @@ body {
     a:hover
     {
         color: $f8text;
-        
+
     }
 
     .nav-item{
@@ -149,13 +145,7 @@ body {
 
     .nav-link{
         font-size: 4.4vw;
-
-        
-        
     }
-
-    
-
 }
 #closer{
     display: none;
@@ -170,9 +160,7 @@ body {
     font-size: 1.6rem;
     border:2px solid $f8text;
     color: $f8text;
-
 }
-
 .hamb{
     width: 1.8rem;
     height: 1.8rem;
@@ -183,11 +171,9 @@ body {
 }
 /*--------------Hamburger Menu Codes------------------------------*/
 
-
-
 /*--------------Footer Codes------------------------------*/
 #footer{
-    
+
     width: 100%;
     height: 5vh;
     @include gridy;
@@ -198,27 +184,20 @@ body {
     color: $primary-color;
     border: 0.2vw solid $primary-color;
 
-
     small {
         font-size: 1.2vw;
         word-spacing: 0.2vw;
         line-height: 0.4vw;
         margin-left: 1vw;
     }
-
-
 }
 
 /*--------------Footer Codes------------------------------*/
 
-
-
-
 /*--------------Media Queries------------------------------*/
 
 @media screen and (max-width: 768px) {
-   
-  
+
     #header {
         display: grid;
         height: 20vh;
@@ -229,22 +208,17 @@ body {
             @include flexy;
 
             .nav-link {
-                font-size: 2vw;
+                font-size: 1.6vw;
             }
-
         }
-
-
     }
 
     #footer{
         display: none;
     }
-
-
 }
 @media screen and (max-width: 576px) {
-    
+
     body{
         height: auto;
     }
@@ -256,10 +230,7 @@ body {
 
         #menu {
             display: none;
-
         }
-
-
     }
 
     .hamb{
@@ -268,8 +239,6 @@ body {
         right: 1rem;
         top:1.5rem;
     }
-
-
 
     #footer {
         display: none;
@@ -284,20 +253,16 @@ body {
 
 }
 @media screen and (min-width: 576px) {
- 
+
     .hamb{
         display: none;
-
     }
-   
-
 }
 @media screen and (min-width: 1280px) {
 
     .nav-link {
         font-size: 0.9vw !important;
     }
-
 }
 @media screen and (min-width: 1440px) {
 
@@ -306,11 +271,8 @@ body {
     }
 
     small {
-
         font-size: 1vw !important;
-
     }
-
 
 }
 
