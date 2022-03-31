@@ -142,7 +142,7 @@ body {
 }
 
 .card-body {
-  height: 15rem;
+  height: 14rem;
 }
 
 .card {
@@ -150,7 +150,7 @@ body {
 }
 
 .img-spec {
-  height: 10rem;
+  height: 100%;
   width: 100%;
   border-radius: 1rem;
 }
@@ -185,7 +185,7 @@ body {
 }
 
 .orchid-cards .img-spec {
-  height: 10rem;
+  height: 100%;
   width: 100%;
   border-radius: 1rem;
 }
@@ -196,7 +196,7 @@ body {
   background-color: #C94A90;
   color: #f8f8f8f8;
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: 100vh;
   right: 0;
   display: none;
@@ -277,9 +277,9 @@ body {
 }
 
 #footer small {
-  font-size: 1.2vw;
+  font-size: 1vw;
   word-spacing: 0.2vw;
-  line-height: 0.4vw;
+  line-height: 0.3vw;
   margin-left: 1vw;
 }
 
@@ -289,7 +289,7 @@ body {
   #header {
     display: -ms-grid;
     display: grid;
-    height: 20vh;
+    height: auto;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -305,7 +305,10 @@ body {
             justify-content: center;
   }
   #header #menu .nav-link {
-    font-size: 2vw;
+    font-size: 1.6vw;
+  }
+  #footer {
+    display: none;
   }
 }
 
@@ -368,25 +371,7 @@ body {
     display: none;
   }
   .card-body {
-    height: 15rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .card-body {
-    height: 13.5rem;
-  }
-  .orchid-cards .card-body {
-    height: 9rem !important;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .card-body {
-    height: 10rem;
-  }
-  .orchid-cards .card-body {
-    height: 7rem !important;
+    height: auto;
   }
 }
 
@@ -395,10 +380,7 @@ body {
     font-size: 0.9vw !important;
   }
   .card-body {
-    height: 8rem;
-  }
-  .orchid-cards .card-body {
-    height: 6.5rem !important;
+    height: auto;
   }
 }
 

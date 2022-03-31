@@ -3,6 +3,7 @@
 $primary-color: #C94A90;
 $f8text : #f8f8f8f8;
 $navbar : #b9337d;
+
 @mixin flexy {
     display: flex;
     align-items: center;
@@ -26,7 +27,6 @@ body {
     background: linear-gradient(180deg, rgba(75,164,186,1) 0%, rgba(175,167,187,1) 20%, rgba(244,192,179,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ba4ba",endColorstr="#f4c0b3",GradientType=1);
 }
-
 
 /*--------------Header Codes------------------------------*/
 #header {
@@ -73,8 +73,6 @@ body {
 
 /*--------------Header Codes------------------------------*/
 
-
-
 /*--------------Carousel Codes------------------------------*/
 .carousel-inner {
     height: auto;
@@ -87,53 +85,39 @@ body {
     min-height: 8rem;
 }
 
-
 /*--------------Carousel Codes------------------------------*/
-
-
-
-
 
 /*--------------Main Codes------------------------------*/
 #cards{
     @include flexy;
-    
+
 
     h5 {
         color: $primary-color;
     }
-    
-
     .card img{
         transform: scale(0.90);
-        
-       
     }
-    
+
     .card img:hover{
-        
+
         transform: scale(1);
-        
-    
     }
 
 }
 
 .card-body{
 
-    height: 15rem;
-    
+    height: 14rem;
 }
 
-
-
 .card{
-    
+
     float:left;
 }
 
 .img-spec{
-    height: 10rem;
+    height: 100%;
     width: 100%;
     border-radius:1rem;
 }
@@ -163,16 +147,16 @@ body {
     .card-body{
 
         height: 10rem;
-        
+
     }
-    
+
     .card{
-        
+
         float:left;
     }
-    
+
     .img-spec{
-        height: 10rem;
+        height: 100%;
         width: 100%;
         border-radius:1rem;
     }
@@ -186,7 +170,7 @@ body {
     background-color: $primary-color;
     color: $f8text;
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     right:0;
     display: none;
@@ -201,7 +185,7 @@ body {
     a:hover
     {
         color: $f8text;
-        
+
     }
 
     .nav-item{
@@ -213,12 +197,7 @@ body {
     .nav-link{
         font-size: 4.4vw;
 
-        
-        
     }
-
-    
-
 }
 #closer{
     display: none;
@@ -245,10 +224,6 @@ body {
 }
 /*--------------Hamburger Menu Codes------------------------------*/
 
-
-
-
-
 /*--------------Footer Codes------------------------------*/
 #footer{
     width: 100%;
@@ -262,21 +237,16 @@ body {
     color: $primary-color;
     border: 0.2vw solid $primary-color;
 
-
     small {
-        font-size: 1.2vw;
+        font-size: 1vw;
         word-spacing: 0.2vw;
-        line-height: 0.4vw;
+        line-height: 0.3vw;
         margin-left: 1vw;
     }
-
 
 }
 
 /*--------------Footer Codes------------------------------*/
-
-
-
 
 /*--------------Media Queries------------------------------*/
 
@@ -285,24 +255,23 @@ body {
 
     #header {
         display: grid;
-        height: 20vh;
+        height: auto;
         grid-template-columns: 1fr;
 
         #menu {
-
             display: flex;
             align-items: center;
             justify-content: center;
 
             .nav-link {
-                font-size: 2vw;
+                font-size: 1.6vw;
             }
-
         }
 
-
     }
-
+    #footer {
+        display: none;
+    }
 
 }
 @media screen and (max-width: 576px) {
@@ -315,9 +284,7 @@ body {
 
         #menu {
             display: none;
-
         }
-
 
     }
 
@@ -340,63 +307,22 @@ body {
         }
     }
 
-
     #footer {
         display: none;
-
     }
-   
+
 }
 @media screen and (min-width: 576px) {
- 
+
     .hamb{
         display: none;
 
     }
     .card-body{
 
-        height: 15rem;
-        
+        height: auto;
+
     }
-
-   
-
-}
-
-@media screen and (min-width: 768px) {
- 
-    .card-body{
-
-        height: 13.5rem;
-        
-    }
-
-    .orchid-cards .card-body{
-
-        height: 9rem !important;
-        
-    }
-
-   
-
-}
-
-@media screen and (min-width: 1024px) {
- 
-    .card-body{
-
-        height: 10rem;
-        
-    }
-
-    .orchid-cards .card-body{
-
-        height: 7rem !important;
-        
-    }
-
-   
-
 }
 
 
@@ -407,15 +333,7 @@ body {
     }
 
     .card-body{
-
-        height: 8rem;
-        
-    }
-
-    .orchid-cards .card-body{
-
-        height: 6.5rem !important;
-        
+        height: auto;
     }
 
 }
@@ -426,12 +344,8 @@ body {
     }
 
     small {
-
         font-size: 1vw !important;
-
     }
 
-
 }
-
 /*--------------Media Queries------------------------------*/
